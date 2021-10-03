@@ -61,6 +61,6 @@ public class Box {
         String name = "gRaghav";
         System.out.println(x);
         System.out.println(name);
-        System.out.println(b1);
+        System.out.println(b3.toString());
     }
 }
