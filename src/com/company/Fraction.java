@@ -69,23 +69,23 @@ public class Fraction {
 
         //Adding f1 and f2
         Fraction f3 = f1.add(f2);
-        System.out.println("3/4 + 4/5 = " + f3);
+        System.out.println(f1 + " + " + f2 + " = " + f3);
 
         //Subtracting f1 and f2
         Fraction f4 = f1.sub(f2);
-        System.out.println("3/4 - 4/5 = " + f4);
+        System.out.println(f1 + " - " + f2 + " = " + f4);
 
         //Multiplying f1 and f2
         Fraction f5 = f1.mult(f2);
-        System.out.println("3/4 x 4/5 = " + f5);
+        System.out.println(f1 + " x " + f2 + " = " + f5);
 
         //rMaking A Recipocal of f1
         Fraction f6 = f1.rec();
-        System.out.println("The reciprocal 3/4 is " + f6);
+        System.out.println("The reciprocal of " + f1 + " is " + f6);
 
         //rMaking A Recipocal of f2
         Fraction f7 = f2.rec();
-        System.out.println("The reciprocal 4/5 is " + f7);
+        System.out.println("The reciprocal of " + f2 + " is " + f7);
 
         // Creating an Instance of Fraction (f8 and f9)
         Fraction f8 = new Fraction(8, 9);
@@ -94,7 +94,6 @@ public class Fraction {
         //Adding f8 and f9
         Fraction f10 = f8.add(f9);
         System.out.println(f8 + " + " + f9 + " = " + f10);
-
 
     }
 }
