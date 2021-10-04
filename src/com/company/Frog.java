@@ -37,7 +37,7 @@ public class Frog {
     {
         yPos=yPos+1;
     }
-    //TODO jump method move up and to the right
+
     public void jump(int bounce){
         xPos=xPos+bounce;
         yPos=yPos+bounce;
