@@ -79,11 +79,11 @@ public class Fraction {
         Fraction f5 = f1.mult(f2);
         System.out.println(f1 + " x " + f2 + " = " + f5);
 
-        //rMaking A Recipocal of f1
+        //Making A Recipocal of f1
         Fraction f6 = f1.rec();
         System.out.println("The reciprocal of " + f1 + " is " + f6);
 
-        //rMaking A Recipocal of f2
+        //Making A Recipocal of f2
         Fraction f7 = f2.rec();
         System.out.println("The reciprocal of " + f2 + " is " + f7);
 
